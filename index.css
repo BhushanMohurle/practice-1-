@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-container{
+    height:100vh;
+    width:100vw;
+    text-align: center;
+}
+.todo-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.label-cont{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    border-left: brown 5px solid;
+}
+.checked{
+    text-decoration: line-through;
+}
+/* .del-icon{
+    background-color: transparent;
+}  */
+
